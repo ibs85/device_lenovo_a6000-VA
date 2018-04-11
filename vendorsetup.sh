@@ -1,1 +1,0 @@
-add_lunch_combo screwd_a6000-userdebug
