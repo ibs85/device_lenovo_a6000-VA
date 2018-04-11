@@ -1,1 +1,1 @@
-add_lunch_combo screwd_a6000-userdebug
+add_lunch_combo nitrogen_a6000-userdebug
