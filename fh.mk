@@ -15,8 +15,8 @@
 
 $(call inherit-product, device/lenovo/a6000/full_a6000.mk)
 
-# Include Screwd common configuration
-include vendor/screwd/main.mk
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/fh/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
@@ -24,7 +24,7 @@ TARGET_BOARD_PLATFORM_VARIANT := msm8916
 # Assert
 TARGET_OTA_ASSERT_DEVICE := Kraft-T,a6000,K30-T,A6000,Kraft-W,Kraft-C,k30t,msm8916,Kraft-A6000,wt86518
 
-PRODUCT_NAME := screwd_a6000
+PRODUCT_NAME := fh_a6000
 PRODUCT_DEVICE := a6000
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := a6000
